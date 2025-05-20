@@ -10,4 +10,5 @@ The docker file (dockerfile) can be used to build the Docker container and run i
 4. Run the docker build using the command: `docker run -d -p 3000:3000 pdf_merger:v1.1`
 
 To check if the container is running, use the command: `docker ps`
+
 If the app doesn't behave as expected, you can view the logs using the command: `docker logs <container_id>`
